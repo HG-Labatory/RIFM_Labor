@@ -1,1 +1,2 @@
-
+- name: Git Version
+  uses: codacy/git-version@2.8.6
