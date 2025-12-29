@@ -1,15 +1,15 @@
-# .github/workflows/module1.yml
+# .github/workflows/modul1.yml
 name: version module1
 
 on:
   pull_request:
     paths:
-      - .github/workflows/module1.yml
-      - module1/**
+      - .github/workflows/modul1.yml
+      - modul1/**
   push:
     paths:
-      - .github/workflows/module1.yml
-      - module1/**
+      - .github/workflows/modul1.yml
+      - modul1/**
     branches:
       - main
 
