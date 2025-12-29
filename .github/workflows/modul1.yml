@@ -1,5 +1,5 @@
 # .github/workflows/module1.yml
-name: Version module1
+name: version module1
 
 on:
   pull_request:
@@ -17,13 +17,13 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: checkout Code
         uses: actions/checkout@v3
         with:
           ref: ${{ github.ref }}   # checkout the correct branch name
           fetch-depth: 0                # fetch the whole repo history
 
-      - name: Git Version
+      - name: git version
         uses: codacy/git-version@2.5.4
         with:
           prefix: spaceship-
