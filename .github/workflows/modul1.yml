@@ -26,5 +26,4 @@ jobs:
       - name: Git Version
         uses: codacy/git-version@2.5.4
         with:
-          prefix: modul1-
-          log-path: modul1/
+          prefix: spaceship-
