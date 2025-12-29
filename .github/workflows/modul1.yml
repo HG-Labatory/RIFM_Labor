@@ -1,5 +1,5 @@
-# .github/workflows/spaceship.yml
-name: Version spaceship
+# .github/workflows/modul1.yml
+name: Version modul1
 
 on:
   pull_request:
