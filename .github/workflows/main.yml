@@ -1,2 +1,13 @@
-- name: Git Version
-  uses: codacy/git-version@2.8.6
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Git Version
+        uses: codacy/git-version@2.8.6
